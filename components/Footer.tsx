@@ -21,15 +21,15 @@ const Footer: React.FC = () => {
                <img className="h-16" src="./public/buddha.jpeg" alt="" /><h4 className="text-4xl font-bold tracking-normal uppercase font-display">TEHNO<span>MANTRA</span></h4>
             </div>
             <p className="text-3xl text-muted max-w-md font-hand leading-relaxed mb-12">
-              "Enlightening the path through neon corridors of innovation." 🧘‍♂️✨
+              "Enlightening the path through neon corridors of innovation." 
             </p>
-            <div className="flex gap-8">
+            {/* <div className="flex gap-8">
                {[Instagram, Twitter, Github].map((Icon, i) => (
                  <a key={i} href="#" className="w-16 h-16 rounded-[2rem] bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white hover:border-accent transition-all transform hover:-translate-y-2 shadow-xl backdrop-blur-md">
                     <Icon size={28} />
                  </a>
                ))}
-            </div>
+            </div> */}
           </div>
 
           <div className="md:col-span-6 grid grid-cols-2 gap-12">
@@ -58,11 +58,11 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-10 text-[11px] font-bold tracking-[0.4em] text-white/20 uppercase font-display">
-          <p>© 2025 TEHNOMANTRA CORE | TECH-SPIRITUAL COLLECTIVE</p>
-          <div className="flex gap-12">
+          <p>© 2026 TEHNOMANTRA | TECH-SPIRITUAL COLLECTIVE</p>
+          {/* <div className="flex gap-12">
             <a href="#" className="hover:text-vibrant transition-colors">Privacy Dockets</a>
             <a href="#" className="hover:text-vibrant transition-colors">Terminal Terms</a>
-          </div>
+          </div> */}
         </div>
       </div>
 

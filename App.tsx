@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 import SplashCursor from './components/SplashCursor';
 import SiteLoader from './components/SiteLoader';
 import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
-import MemoriesSection from './components/MemoriesSection';
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +47,6 @@ const App: React.FC = () => {
               <GamesSection />
               <SponsorsSection />
               <GallerySection />
-              <MemoriesSection />
             </main>
             <Footer />
           </motion.div>

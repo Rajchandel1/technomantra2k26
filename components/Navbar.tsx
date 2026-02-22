@@ -27,9 +27,9 @@ const Navbar: React.FC = () => {
                 {item.name}
               </a>
             ))}
-            <button className="bg-white text-black px-4 py-1.5 rounded-full text-[10px] font-bold hover:bg-white/90 transition-all">
+            {/* <button className="bg-white text-black px-4 py-1.5 rounded-full text-[10px] font-bold hover:bg-white/90 transition-all">
               Register Now
-            </button>
+            </button> */}
           </div>
 
           <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
@@ -51,9 +51,9 @@ const Navbar: React.FC = () => {
                 {item.name}
               </a>
             ))}
-            <button className="w-full bg-white text-black py-4 rounded-2xl font-bold mt-4">
+            {/* <button className="w-full bg-white text-black py-4 rounded-2xl font-bold mt-4">
               Register Now
-            </button>
+            </button> */}
           </motion.div>
         )}
       </AnimatePresence>

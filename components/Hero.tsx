@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const opacity = useTransform(scrollY, [0, 400], [1, 0]);
   const y = useTransform(scrollY, [0, 500], [0, 40]);
 
-  const imageUrl = "https://z-cdn-media.chatglm.cn/files/31bcdd39-f2d4-428f-b05b-167eae91d566.png?auth_key=1869014648-19a38749551247b29ebb9700dec92401-0-db5ae400e986afcb76e750667fb3de1f";
+  const imageUrl = "./buddha.png";
   
   // Check if the image is ready
   const isImageReady = useImageReady(imageUrl); // Assuming you pasted the hook here or imported it
@@ -147,11 +147,11 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex flex-wrap gap-8 justify-center items-center mt-16"
         >
-          <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
+          {/* <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
             Register <MousePointer2 size={24} />
-          </button>
-          <button className="text-white/80 text-2xl font-semibold flex items-center group gap-3 hover:text-vibrant transition-colors">
-            Events <ChevronRight className="group-hover:translate-x-2 transition-transform" />
+          </button> */}
+          <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
+            <a href="#games">Events</a> <ChevronRight className="group-hover:translate-x-2 transition-transform" />
           </button>
         </motion.div>
       </motion.div>

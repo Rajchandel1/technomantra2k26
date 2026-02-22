@@ -54,12 +54,12 @@ const SponsorsSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-20 py-10 border-t border-white/5 text-center">
+        {/* <div className="mt-20 py-10 border-t border-white/5 text-center">
           <p className="text-muted text-[10px] uppercase tracking-[0.4em] font-bold mb-6">Want to collaborate with us?</p>
           <button className="text-accent hover:text-white border border-accent/30 px-8 py-3 rounded-sm font-bold uppercase tracking-widest text-[10px] transition-all hover:bg-accent">
             Become a Sponsor
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

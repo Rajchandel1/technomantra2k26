@@ -19,7 +19,7 @@ const SiteLoader: React.FC<SiteLoaderProps> = ({ onComplete }) => {
     <motion.div
       exit={{ opacity: 0, scale: 1.05 }}
       transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-      className="fixed inset-0 z-[1000] bg-[#05020a] flex flex-col items-center justify-center"
+      className="fixed inset-0 z-[1000] bg-[#000] flex flex-col items-center justify-center"
     >
       {/* Background Ambient Glow (Kept for the dark vibe) */}
       <div className="absolute inset-0 pointer-events-none">
@@ -54,11 +54,11 @@ const SiteLoader: React.FC<SiteLoaderProps> = ({ onComplete }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
-        className="absolute bottom-12"
+        className="absolute bottom-6 md:bottom-12 w-full flex justify-center"
       >
-         <div className="text-[50px] md:text-[10px] font-mono text-white uppercase">
-            Technomantra: Loading The Vibe.... 
-         </div>
+        <div className="text-[16px] sm:text-[18px] md:text-[22px] lg:text-[36px] xl:text-[50px] font-mono text-white uppercase text-center px-4">
+          Technomantra: Loading The Vibe....
+        </div>
       </motion.div>
     </motion.div>
   );
