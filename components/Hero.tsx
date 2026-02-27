@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const opacity = useTransform(scrollY, [0, 400], [1, 0]);
   const y = useTransform(scrollY, [0, 500], [0, 40]);
 
-  const imageUrl = "./buddha.png";
+  const imageUrl = "/buddha.png";
   
   // Check if the image is ready
   const isImageReady = useImageReady(imageUrl); // Assuming you pasted the hook here or imported it
