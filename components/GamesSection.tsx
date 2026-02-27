@@ -508,27 +508,27 @@ posting the reel.
   const currentMissions = activeTab === 'TECH' ? techMissions : nonTechMissions;
 
   return (
-    <section id="games" className="bg-[#080310] relative py-40 overflow-hidden">
-      <div className="max-w-[1500px] mx-auto px-6 relative z-10">
-        <div className="flex flex-col items-center mb-24 text-center">
+    <section id="games" className="bg-[#080310] relative py-24 md:py-32 lg:py-40 overflow-hidden">
+      <div className="max-w-[1500px] mx-auto px-4 sm:px-6 relative z-10">
+        <div className="flex flex-col items-center mb-14 sm:mb-20 lg:mb-24 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-12"
+            className="mb-8 sm:mb-10 lg:mb-12"
           >
-            <h2 className="text-7xl md:text-9xl font-bold tracking-normal mb-8 leading-[0.8] uppercase font-display">
+            <h2 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-normal mb-5 sm:mb-6 lg:mb-8 leading-[0.85] uppercase font-display">
               CHOOSE YOUR <br /> <span className="text-vibrant">KARMA.</span>
             </h2>
-            <p className="text-xl text-muted font-medium max-w-lg mx-auto">Master the technical or dominate the non-technical arena.</p>
+            <p className="text-base sm:text-lg md:text-xl text-muted font-medium max-w-lg mx-auto">Master the technical or dominate the non-technical arena.</p>
           </motion.div>
 
-          <div className="flex gap-4 p-2 bg-white/5 backdrop-blur-xl rounded-full border border-white/10 shadow-2xl">
+          <div className="flex gap-2 sm:gap-3 p-1.5 sm:p-2 bg-white/5 backdrop-blur-xl rounded-full border border-white/10 shadow-2xl">
             {(['TECH', 'NON-TECH'] as const).map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-14 py-4 rounded-full text-lg font-bold tracking-widest uppercase font-display transition-all duration-500 relative overflow-hidden ${
+                className={`px-5 sm:px-8 md:px-12 lg:px-14 py-2.5 sm:py-3 md:py-4 rounded-full text-xs sm:text-sm md:text-base lg:text-lg font-bold tracking-[0.18em] sm:tracking-widest uppercase font-display transition-all duration-500 relative overflow-hidden ${
                   activeTab === tab ? 'text-black' : 'text-muted hover:text-white'
                 }`}
               >
@@ -545,7 +545,7 @@ posting the reel.
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 card-perspective">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12 card-perspective">
           <AnimatePresence mode="wait">
             {currentMissions.map((game, idx) => (
               <motion.div
@@ -555,32 +555,49 @@ posting the reel.
                 exit={{ opacity: 0, scale: 0.95, y: -20 }}
                 transition={{ duration: 0.6, delay: idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
                 whileHover={{ y: -15, scale: 1.02 }}
-                className="group relative h-[500px] rounded-[5rem] overflow-hidden bg-secondary border border-white/5 shadow-2xl"
+                onClick={() => setSelectedGame(game)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setSelectedGame(game);
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                className="group relative h-[380px] sm:h-[430px] lg:h-[500px] rounded-[2rem] sm:rounded-[3rem] lg:rounded-[5rem] overflow-hidden bg-secondary border border-white/5 shadow-2xl cursor-pointer"
+                aria-label={`Open ${game.title} rules`}
               >
                 <img src={game.img} alt={game.title} className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-110" />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent p-12 flex flex-col justify-end">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="w-14 h-14 rounded-2xl bg-accent/20 backdrop-blur-md border border-accent/40 flex items-center justify-center">
-                      <Sparkles size={28} className="text-accent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent p-5 sm:p-7 lg:p-10 flex flex-col justify-end">
+                  <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-5 lg:mb-6">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-xl sm:rounded-2xl bg-accent/20 backdrop-blur-md border border-accent/40 flex items-center justify-center">
+                      <Sparkles size={20} className="text-accent sm:hidden" />
+                      <Sparkles size={24} className="text-accent hidden sm:block lg:hidden" />
+                      <Sparkles size={28} className="text-accent hidden lg:block" />
                     </div>
-                    <span className="font-display font-bold text-3xl tracking-widest text-vibrant uppercase">{game.cat}</span>
+                    <span className="font-display font-bold text-lg sm:text-xl lg:text-2xl tracking-[0.15em] sm:tracking-widest text-vibrant uppercase">{game.cat}</span>
                   </div>
 
-                  <h3 className="text-5xl font-bold mb-10 tracking-tighter leading-none group-hover:text-vibrant transition-colors">{game.title}</h3>
+                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-5 sm:mb-7 lg:mb-10 tracking-tight leading-[0.95] group-hover:text-vibrant transition-colors">{game.title}</h3>
 
-                  <div className="flex justify-between items-center bg-white p-8 rounded-[3.5rem] shadow-2xl group-hover:bg-vibrant transition-all duration-500 transform group-hover:scale-[1.05]">
+                  <div className="flex justify-between items-center bg-white p-3.5 sm:p-5 lg:p-7 rounded-[1.5rem] sm:rounded-[2.5rem] lg:rounded-[3.5rem] shadow-2xl group-hover:bg-vibrant transition-all duration-500 transform group-hover:scale-[1.03]">
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-widest font-bold text-black/40 mb-1"></span>
-                      <span className="text-3xl font-bold font-display text-black">RULEBOOK</span>
+                      <span className="text-lg sm:text-2xl lg:text-3xl font-bold font-display text-black">RULEBOOK</span>
                     </div>
-                    <button onClick={() => setSelectedGame(game)} className="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center transform " aria-label={`Open ${game.title} rules`}>
-                      <ChevronRight size={32} />
-                    </button>
+                    <div
+                      className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-full bg-black text-white flex items-center justify-center"
+                      aria-hidden="true"
+                    >
+                      <ChevronRight size={20} className="sm:hidden" />
+                      <ChevronRight size={24} className="hidden sm:block lg:hidden" />
+                      <ChevronRight size={28} className="hidden lg:block" />
+                    </div>
                   </div>
                 </div>
 
-                <div className="absolute bottom-10 right-10 text-white/5 font-display text-[12rem] select-none pointer-events-none group-hover:text-accent/10 transition-colors">0{idx + 1}</div>
+                <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 lg:bottom-8 lg:right-8 text-white/5 font-display text-[5rem] sm:text-[7rem] lg:text-[10rem] select-none pointer-events-none group-hover:text-accent/10 transition-colors">0{idx + 1}</div>
               </motion.div>
             ))}
           </AnimatePresence>

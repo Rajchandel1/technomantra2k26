@@ -69,11 +69,16 @@ const AboutSection: React.FC = () => {
                 className="relative aspect-[4/5] rounded-[2rem] overflow-hidden bg-secondary shadow-[0_50px_100px_rgba(0,0,0,0.8)]"
               >
                 {/* Tech Face Image from provided visuals */}
-                <img 
-                  src="/balcony.JPG" 
-                  alt="Tech Face Visual" 
-                  className="w-full h-full object-cover"
-                />
+                <picture>
+                  <source srcSet="/balcony.webp" type="image/webp" />
+                  <img 
+                    src="/balcony.JPG" 
+                    alt="Tech Face Visual" 
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </motion.div>
               
