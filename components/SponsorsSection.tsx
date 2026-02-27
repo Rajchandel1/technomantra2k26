@@ -32,7 +32,7 @@ const SponsorsSection: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-1 bg-accent/10 border border-accent/20 text-accent font-bold text-[10px] uppercase tracking-[0.3em] mb-4 rounded-full">Partnerships</div>
-          <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight">Our Past Power <span className="text-accent">Sponsors</span></h2>
+          <h2 className="text-4xl md:text-6xl font-display font-bold uppercase tracking-tight">Our Power <span className="text-accent">Sponsors</span></h2>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-12 items-center justify-items-center transition-all duration-500">
