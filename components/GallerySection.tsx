@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const GallerySection: React.FC = () => {
   const images = [
   { url: '/13.JPG', rotate: '-6deg', text: 'TechnoVerse 🔮' },
-  { url: '/1.JPG',  rotate: '5deg',  text: 'Code Arena 💻' },
+  { url: '/1.jpeg',  rotate: '5deg',  text: 'Code Arena 💻' },
   { url: '/2.JPG',  rotate: '-4deg', text: 'Tech Nexus 🌐' },
   { url: '/3.JPG',  rotate: '6deg',  text: 'AI Pavilion 🤖' },
   { url: '/4.JPG',  rotate: '-5deg', text: 'Innovation Hub ⚙️' },
