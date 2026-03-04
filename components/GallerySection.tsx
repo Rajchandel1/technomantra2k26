@@ -13,7 +13,7 @@ const GallerySection: React.FC = () => {
   { url: '/7.JPG',  rotate: '5deg',  text: 'Future Lab 🚀' },
   { url: '/8.JPG',  rotate: '-4deg', text: 'Quantum Hall ⚛️' },
   { url: '/9.JPG',  rotate: '6deg',  text: 'Digital Frontier 🧬' },
-  { url: '/10.JPG', rotate: '-5deg', text: 'Neural Network 🕸️' },
+  // { url: '/10.JPG', rotate: '-5deg', text: 'Neural Network 🕸️' },
   { url: '/11.JPG', rotate: '4deg',  text: 'Binary Beats 🎧' },
   { url: '/12.JPG', rotate: '-6deg', text: 'TechnoVerse 🔮' },
 

@@ -11,42 +11,65 @@ const GamesSection: React.FC = () => {
       title: 'Shan-e-Technomantra',
       cat: 'CODING / INTERVIEW',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1526378722693-6e366b7f4b2d?q=80&w=1000',
+      img: 'https://i.pinimg.com/1200x/d9/7b/de/d97bdeeb39bb6756724d1218327e4ca7.jpg',
       sticker: '💡',
       rules: `Shan-e-Technomantra
 About the Game:
-Shan-e-Technomantra is a dynamic competition that combines technical
-expertise with strong communication skills. The event tests participants on
-their analytical thinking, coding ability, and overall technical knowledge.
-The final round includes a interview, where participants are evaluated on
-their technical understanding, problem-solving approach, coding concepts,
-and communication skills.
+Shan-e-Technomantra is a dynamic competition that combines technical expertise with strong communication skills. The event tests participants on their analytical thinking, coding ability, and overall technical knowledge.
+The final round includes an interview, where participants are evaluated on their technical understanding, problem-solving approach, coding concepts, and communication skills.
 Rules:
-No electronic devices are allowed during the rounds.
-Any form of cheating, plagiarism, or misconduct will lead to disqualification.
-The judges’ decision will be final.
-Round 1 – Aptitude (15 minutes):
-Participants will be tested on problem-solving and analytical skills through aptitude-based questions.
-Round 2 – Technical (20 minutes):
-Participants will engage in competitive programming challenges to demonstrate coding skills and
-algorithmic thinking.
-Round 3 – Interview (10–15 minutes):
-Participants will face a personal interview to assess technical knowledge, problem-solving ability, and
-communication skills. Questions may include technical, coding, and behavioral aspects.`
+• No electronic devices are allowed during the rounds.
+• Any form of cheating, plagiarism, or misconduct will lead to disqualification.
+• The judges’ decision will be final.
+Round 1 – Aptitude (15 minutes): Participants will be tested on problem-solving and analytical skills through aptitude-based questions.
+Round 2 – Technical (20 minutes): Participants will engage in competitive programming challenges to demonstrate coding skills and algorithmic thinking.
+Round 3 – Interview (10-15 minutes): Participants will face a personal interview to assess technical knowledge, problem-solving ability, and communication skills. Questions may include technical, coding, and behavioral aspects.
+Participation Fee: ₹40`
+    },
+    {
+      title: 'IT-Prenuership',
+      cat: 'INNOVATION',
+      prize: 'TBD',
+      img: 'https://i.pinimg.com/736x/2a/48/1f/2a481f657263d9967ea96e7e682ae248.jpg',
+      sticker: '🚀',
+      rules: `IT-Prenuership
+About the Game :
+IT-Prenuership is an innovation-driven competition designed to encourage students to present creative and technology-oriented business ideas. The event promotes entrepreneurial thinking, problem-solving ability, and the effective application of emerging technologies within the IT domain.
+Participants are encouraged to showcase innovative concepts that integrate modern technologies such as Artificial Intelligence, Blockchain, Internet of Things (IoT), or other emerging digital solutions.
+Rules :
+• Participation is open to both individual participants and teams.
+• Each presentation must clearly highlight the innovative use of technology.
+• Participants may use visual aids such as slides, demos, or prototypes.
+• Each presentation will be followed by a brief Q&A session conducted by the judges.
+• Any form of plagiarism or misconduct will lead to disqualification.
+• The decision of the judges will be final and binding
+Round 1 – Preliminary Round (College Level)
+• Participants will present their IT-based business idea.
+• Each presentation will have a duration of 10–15 minutes.
+• Judges will evaluate ideas based on innovation, feasibility, technical depth, and presentation quality.
+• This round will serve as the elimination round.
+• Selected participants or teams will advance to Round 2 in the Senate Hall.
+Round 2 – Final Round (Senate Hall)
+• Finalists will present their refined or expanded business ideas.
+• Each presentation will have a duration of 10–15 minutes.
+• A detailed Q&A session will follow each presentation.
+• Final evaluation will determine the winner based on overall performance, innovation, and impact potential
+Participation Fee: ₹40 per person`
     },
     {
       title: 'Bug To Brain',
       cat: 'CODING',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000',
+      img: 'https://i.pinimg.com/736x/b8/32/2c/b8322c874daf2c5784ec6b98edb873b4.jpg',
       sticker: '🐞',
-      rules: `BUG TO BRAIN
-Individual Technical Coding Game
-Game Overview
-• Individual participation
-• Total 3 tasks
-• Clear each task to unlock the next
-• Time-based challenge
+      rules: `Bug To Brain
+About the Game :
+Bug to Brain is an individual technical coding challenge that tests participants’ debugging, logical thinking, and programming skills. The game consists of multiple tasks that must be completed in sequence, where each task unlocks the next. Participants compete under time limits to solve problems accurately and efficiently.
+Rules & Evaluation
+• No collaboration
+• No plagiarism
+• Judges' decision final
+• Winner based on correctness & performance
 Task 1: Debug the Code
 • Language: C
 • Identify and fix bugs
@@ -61,162 +84,154 @@ Task 3: Final Coding Challenge
 • Any programming language allowed
 • Working solution required
 • Time Limit: 40 minutes
-Rules & Evaluation
-• No collaboration
-• No plagiarism
-• Judges' decision final
-• Winner based on correctness & performance`
+Participation Fee :- ₹40`
+    },
+    {
+      title: 'Tech Hunt',
+      cat: 'HUNT',
+      prize: 'TBD',
+      img: 'https://i.pinimg.com/1200x/7d/a6/e3/7da6e37d89518cb768db7586836f25be.jpg',
+      sticker: '🧩',
+      rules: `Tech Hunt
+About the Game: Tech Hunt Mania is an immersive, campus-wide treasure hunt designed to challenge participants through a series of interconnected, technology-inspired riddles. Teams must decode each clue to unlock the next location, navigating across the campus in pursuit of the final destination. The game tests logical reasoning, teamwork, problem-solving ability, observation skills, and time management. Every correct solution advances the team further along the digital trail. The competition unfolds as one continuous round, where strategy and speed determine success. Only the most efficient and coordinated team will complete the hunt and claim victory.
+Rules :
+• Each team must consist of 3–4 participants (flexible as per registration guidelines).
+• All teams will receive the starting clue simultaneously.
+• Teams must solve the current riddle before proceeding to the next location.
+• Clues must not be removed, damaged, or concealed.
+• Sharing clues or answers with other teams is strictly prohibited.
+• No external assistance or unfair means is allowed.
+• Any form of misconduct will result in immediate disqualification.
+• The decision of the judges and organizers will be final and binding.
+Game Format – Continuous Hunt
+• The event will run for a fixed duration, as announced by the organizers.
+• The hunt begins with an initial riddle at the starting point.
+• Each solved riddle leads to a designated campus location.
+• At each location, teams will receive the next clue.
+• Clues must be solved sequentially; skipping stages is not permitted.
+• The game continues in this manner until the final clue is discovered.
+Winning Criteria
+• The team that reaches and correctly solves the final clue first will be declared the winner of Tech Hunt Mania.
+• If no team completes the hunt within the allotted time, the team that has solved the highest number of clues will be declared the winner.
+• In case of a tie, a tie-breaker challenge will be conducted to determine the final winner.
+Participation Fee: ₹40 only per person`
     },
     {
       title: 'Tech Echo',
       cat: 'QUIZ',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?q=80&w=1000',
+      img: 'https://i.pinimg.com/736x/23/6e/5e/236e5e8bc28e07a49c5879f135bc4bfd.jpg',
       sticker: '🎤',
       rules: `Tech Echo
 About Game:
-In this event, two participants will team up to answer computer science, programming, software,
-hardware, algorithms, and various technology fundamental based questions within a specific
-time frame. The objective of the game is to assess participants’ knowledge and proficiency in the
-field of technical and general knowledge.
+In this event, three participants will team up to answer computer science, programming, software, hardware, algorithms, and various technology fundamental based questions within a specific time frame. The objective of the game is to assess participants’ knowledge and proficiency in the field of technical and general knowledge.
 Instruction And Rules:
 • Each team consists of a maximum of 3 participants.
 • Team members cannot be changed after registration.
 • Participants are not allowed to use any kind of digital or electronic devices.
-• Participants are required to raise their hands before answering any question in order to
-gain the points.
+• Participants are required to raise their hands before answering any question in order to gain the points.
 • The judge’s decision will be final, and no disputes will be entertained.
 ROUND 1: ELIMINATION [20 MIN]
-• This will be The Elimination round with MCQs, where each team will get equal
-opportunity to answer.
-•  Each team can choose any one group member to sit for the MCQ round on behalf of the team.
+• This will be The Elimination round with MCQs, where each team will get equal opportunity to answer.
+• Each team can choose any one group member to sit for the MCQ round on behalf of the team.
 • Teams with highest performance will get qualified for the next round.
 ROUND 2: RAPID FIRE [2 MIN]
-• This will be The Rapid-fire round, where teams have to answer questions within a
-specified time frame.
+• This will be The Rapid-fire round, where teams have to answer questions within a specified time frame.
 • Points awarded based on correct answers.
 ROUND 3: CLUE CASCADE [15 Minutes]
 • This round is a Hint-Based Quiz Round.
-• Each team will be given a question along with progressive hints (3–5 hints per
-question).
+• Each team will be given a question along with progressive hints (3–5 hints per question).
 • The hints will be revealed one by one, moving from difficult to easier clues.
 • Teams can guess the answer after any hint is given.
-• Points will be awarded based on how early the correct answer is guessed (fewer hints
-used = higher points).
-• The team with the highest total points at the end of the round will lead the scoreboard.
+• Points will be awarded based on how early the correct answer is guessed (fewer hints used = higher points).
+• The team with the highest total points at the end of the round will lead the scoreboard
 ROUND 4: BUZZER
 • This will be The Buzzer round, where first to buzz answers the question.
 • Points awarded based on performance.
-• TIE – BREAKER (IF NECESSARY)
-In case 2 or more teams tie, then a Tie-Breaker round will be initiated with sudden-death
-buzzer questions.`
+• TIE – BREAKER (IF NECESSARY) In case 2 or more teams tie, then a Tie-Breaker round will be initiated with sudden-death buzzer questions.
+Participation Fee: ₹40 only per person`
     },
     {
       title: 'Bro Code',
       cat: 'PAIR CODING',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000',
+      img: 'https://i.pinimg.com/1200x/fd/a4/84/fda4848ecbef63e098b7a22117345b93.jpg',
       sticker: '🤝',
       rules: `Bro Code
-Registration Details:
-•  Team Size: 2 Participants (Pair)
-About the Game:
-Bro Code is a two-player coding challenge that tests teamwork and logical thinking. One
-participant starts coding based on a given problem, while the partner waits outside. After a fixed
-time, the second participant enters and completes the unfinished code without any
-communication. The game focuses on clean coding, problem-solving, and coordination under
-pressure. Participants may use any programming language of their choice.
-Instructions and Rules
-• Each team must consist of two participants.
-• The total time limit for the task is 40 minutes.
-• The first participant will get 15 minutes to code while the partner waits outside.
-• After 15 minutes, the first participant must stop coding immediately.
-• The second participant will then enter and will get 25 minutes to complete the same
-code.
-• No communication is allowed between partners at any stage.
-• Participants may use any one programming language (C, C++, Java, Python, etc.).
-• Use of the internet, AI tools, or any external help is strictly prohibited.
-• Evaluation will be based on correctness, code clarity, and teamwork.
-• The decision of the judges will be final.`
+About the Game :
+Two-players coding challenge, testing teamwork and coordination.
+Partners code in shifts without communication.
+Rules:
+Round 1 - 15 mins (Elimination round)
+• Both participants together solves an aptitude puzzle.
+Round 2 - 30 mins (Final round)
+• Partners have to solve a coding problem.
+• Partner 1 - 15 mins,
+• Partner 2 - 15 mins.
+• No communication is allowed between partners.
+• No internet or AI tools.
+• Programming language - C
+Instructions:
+• Partners roles will be swapped after halftime.
+• Judges’ decision will be final.
+• One participant will write the initial code, and the other will continue from where the first one left it.
+Participation Fee: ₹40 only per person`
     },
     {
-      title: 'UIVERSE: Frontend Challenge',
+      title: 'UI-Verse',
       cat: 'FRONTEND',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000',
+      img: 'https://i.pinimg.com/736x/59/b7/1d/59b71d34cefbb9e41db850bc7d751c57.jpg',
       sticker: '🌐',
-      rules: `- 🚀 UIVERSE: The Frontend Challenge
-"Where Creativity Meets Code"
-
-Welcome to UIverse! This is a solo coding battle where you prove your mettle as a frontend developer. No drag-and-drop, no design tools—just pure code, logic, and a little help from your AI companion.
-
-⚡ General Rules
-Solo Mode: This is a single-player event. No teams allowed.
-Tools Allowed: You can use any Code Editor (VS Code, Sublime, etc.) and browsers.
-Strictly No Design Tools: Using Figma, Canva, or Photoshop for designing is not allowed. You must write code (HTML/CSS/JS) to generate your designs.
-Internet: You have full internet access to look up syntax and documentation.
-🎨 ROUND 1: The AI Co-Pilot (Creative Coding)
-Time Limit: 30 Minutes
-
-The Challenge:
-This is your chance to show how you can use AI to boost your creativity! You need to pick any existing brand (e.g., Starbucks, Nike, a local chai shop, etc.) and create a Landing Page Concept for them.
-
-How it Works:
-
-Code with AI: You will use AI tools (like ChatGPT, Claude, Gemini, or Copilot) to help you write the HTML and CSS code for a redesigned version of your chosen brand’s website.
-Companion, Not a Slave: Don’t just blindly copy-paste AI code! Use AI as your "Junior Developer." Guide it, tweak the code it gives you, and refine the design. If the AI makes a mistake, you fix it.
-Goal: Create a fresh, modern look for the brand entirely in the browser.
-
-Submission:
-
-A zip file containing your index.html and style.css files.
-(Optional) A text file mentioning the prompt you used to get the main structure.
-
-Judging Criteria:
-
-Creativity (40%): Is the redesign fresh and exciting?
-Code Understanding (30%): Did you clean up the AI code? Does it run without errors?
-Visuals (30%): Does it actually look like a professional landing page?
-
-💻 ROUND 2: The Pixel Perfect Clone (Skill Test)
-Time Limit: 45 Minutes
-
-The Challenge:
-This round tests your raw frontend skills. We will provide you with a screenshot of a webpage. Your job is to recreate it with code as perfectly as possible.
-
-How it Works:
-
-The Asset: We will give you an image of a webpage and a folder of necessary assets (images, logos).
-Code from Scratch: You must write the HTML and CSS to match the image exactly. No AI tools allowed in this round—it’s all you!
-The "Pro Move" (Bonus): If you finish early and think the original design is boring, you can add improvements! Add a cool hover effect, a button animation, or fix the colors. If we like your improvement, you get Bonus Points.
-
-Submission:
-
-A zip file containing your code files.
-
-Judging Criteria:
-
-Pixel Perfection (50%): How close is your code to the original image? (Margins, fonts, alignment).
-Code Quality (30%): Is your CSS clean? Are class names sensible?
-Bonus Points (20%): Awarded only if the base clone is accurate and the improvements are genuinely better than the original.
-
-🏆 Winner Selection
-Round 1 Score: /50
-Round 2 Score: /50 (+ Bonus)
-The player with the highest total score takes the crown!`
+      rules: `UI-Verse
+About the Game :
+UIVERSE: The Frontend Challenge is a solo coding competition designed to test participants’ frontend development skills and creativity. In this event, participants create and replicate web designs using HTML, CSS, and JavaScript. The challenge focuses on how well developers can design modern user interfaces and write clean frontend code within a limited time.
+Rules :
+• The event is solo, meaning each participant competes individually.
+• Participants can use any code editor (like VS Code or Sublime) and web browsers.
+• Design tools such as Figma, Canva, or Photoshop are not allowed. All designs must be created using code only.
+• Internet access is allowed for documentation or syntax reference.
+• In Round 1, AI tools can be used to assist in coding, but participants must understand and refine the generated code themselves.
+• In Round 2, AI tools are strictly prohibited.
+Round 1 – AI Comapnion (Creative Coding)
+Participants must choose an existing brand and design a modern landing page concept for it using HTML and CSS. They can use AI tools as assistants to generate or improve code, but the final design should be customized and refined by the participant.
+Time Limit: 30 minutes.
+Round 2 – Pixel Perfect Clone (Skill Test)
+Participants are given a screenshot of a webpage and must recreate it as accurately as possible using HTML and CSS. This round tests attention to detail, coding accuracy, and frontend fundamentals. AI tools are not allowed in this round.
+Time Limit: 45 minutes.
+Participation Fee: ₹40 only`
     },
     {
-      title: 'SQL Showdown',
+      title: 'SQL Slayer',
       cat: 'DATABASES',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000',
+      img: 'https://i.pinimg.com/1200x/23/28/2a/23282ab06bb255f808463a48210822bd.jpg',
       sticker: '🗄️',
-      rules: `SQL Showdown
-- Event focused on SQL queries and database problem solving.
-- Participants will be given datasets and tasks requiring SELECT, JOIN, GROUP BY, subqueries, window functions, and optimization.
-- Time-limited rounds; accuracy and performance considered for scoring.
-- No external database connections or internet for solutions allowed during rounds.
-- Judges' decisions are final.`
+      rules: `SQL Slayer
+About the Game : SQL Slayer is a thrilling, story-driven SQL battle where participants enter a fictional database warzone. Players solve narrative-based SQL challenges to earn points and prepare for the ultimate showdown. The competition unfolds in two intense rounds — beginning in the College Arena and culminating in the Senate Hall, where participants engage in a rapid-fire SQL battle against the Main Villain. Strategy, accuracy, and speed determine the ultimate SQL Slayer.
+Rules :
+• Participants must write valid and syntactically correct SQL queries.
+• No electronic devices or external assistance is allowed.
+• Any form of cheating or misconduct will lead to immediate disqualification.
+• No retries once an answer is submitted.
+• The judges’ decision will be final.
+Round 1 – The Awakening (College Arena)
+Duration: 45 Minutes
+• Participants will be given a story-based database scenario.
+• They must write SQL queries based on the storyline.
+• Points will be awarded for correctness and accuracy.
+• The total points earned in this round will carry forward to Round 2.
+• Selected participants will advance to the Senate Hall.
+Round 2 – The Senate War (Rapid Fire)
+• This round will consist of SQL-related MCQs.
+• Each question will have a strict time limit.
+• Faster correct responses will result in greater impact during the battle.
+• Participants will use their earned points strategically in the final confrontation
+Winning Criteria
+• The participant who defeats the Main Villain wins.
+• If multiple participants defeat the Villain, the one with the highest remaining HP will be declared the winner.
+• In case of a tie, a Surprise Round 3 will be conducted to determine the ultimate SQL Slayer
+Participation Fee :- ₹40 only`
     },
   ];
 
@@ -229,38 +244,35 @@ The player with the highest total score takes the crown!`
       sticker: '🎨',
       rules: `Rang-e-Tech
 ABOUT THE GAME:
-Rang-e-Tech is a Technical Rangoli Competition where participants creatively blend traditional rangoli
-art with modern technological themes. Designs must reflect a specified technical concept.
+Rang-e-Tech is a Technical Rangoli Competition where participants creatively blend traditional rangoli art with modern technological themes. Designs must reflect a specified technical concept.
 INSTRUCTIONS AND RULES:
 • Participants must bring all materials required for rangoli creation.
 • Rangoli designs must be original and created on the spot during the competition.
 • Any violation of rules may lead to disqualification.
-• The judges’ decision will be final.`
+• The judges’ decision will be final.
+Participation Fee: ₹40 only per person`
     },
     {
       title: 'Pictionary',
       cat: 'GAME',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000',
-      sticker: '🖼️',
+      sticker: '🖍️',
       rules: `Pictionary
-About the Game:
-Pictionary is a creative and engaging game that tests participants’ imagination and visual
-thinking skills. One participant draws a given word or phrase while the other guesses it within a
-limited time.
-The game consists of two rounds:
-Round 1:
-Participants will perform the standard Pictionary task. One member will draw, and the other must
-guess the word within 2 minutes.
-Round 2:
-Participants will be shown a broken, blurred, or partial image. They must carefully observe and
-correctly identify the picture. Each team will get only 3 chances to guess the image.
+About the Game: Pictionary is a creative and engaging game that tests participants’ imagination and visual thinking skills. One participant draws a given word or phrase while the other guesses it within a limited time.
+Round 1 ( KS Auditorium ):
+• Participants will perform the standard Pictionary task.
+• One member will draw, and the other must guess the word within 1 minutes.
+Round 2 ( Senate Hall ) :
+• Participants will perform the standard Pictionary task.
+• One member will draw, and the other must guess the word within 1 minutes.
 Instructions and Rules:
 • Each team consists of 2 participants.
 • Team members cannot be changed after registration.
 • Letters, numbers, symbols, gestures, or verbal hints are not allowed.
 • Any form of cheating or misconduct will lead to disqualification.
-• The judges’ decision will be final.`
+• The judges’ decision will be final.
+Participation Fee :- ₹50 only`
     },
     {
       title: 'Say It Right',
@@ -269,20 +281,23 @@ Instructions and Rules:
       img: 'https://images.unsplash.com/photo-1520975915084-6b97b9b3d6a8?q=80&w=1000',
       sticker: '👄',
       rules: `Say It Right
-About the Game:
-Say It Right is a fun and interactive game that tests participants’ communication, observation, and lip-reading skills. Participants must guess words or sentences within a limited time.
-The game consists of two rounds, both based on the same concept:
-• Rules:
+About the Game :
+Say It Right is a fun and interactive game that tests participants’ communication, observation, and lip-reading skills. One participant lip-syncs a word or sentence while the other, wearing headphones with music, tries to guess it by reading their partner’s lips within a limited time.
+Round 1
+• Teams attempt to guess as many words or sentences as possible within 1 minute using lip-reading.
+• The top performing teams qualify for Round 2.
+Round 2
+• The same format continues but with more challenging words or sentences. This round will be conducted in the Senate Hall, and the best performing team will be declared the winner.
+Rules & Instructions
 • Each team consists of 2 participants.
-• One participant will wear headphones with music playing.
+• One participant wears headphones with music playing.
 • The other participant will silently lip-sync the given word or sentence.
-• The participant wearing the headphones must guess the word by reading their partner’s lips.
-• The team gets 1 minute to guess as many correct answers as possible.
-• Winners of Round 1 qualify for Round 2.
-• Participants are not allowed to use sign language, hand gestures, or any kind of signals.
-• Any violation of rules will lead to disqualification.
-• The judges’ decision will be final.
-• Round 2 will be conducted in the Seminar Hall.`
+• The participant with headphones must guess by reading lips only.
+• Each team gets 1 minute to guess as many correct answers as possible.
+• No sign language, hand gestures, or signals are allowed.
+• Any rule violation leads to disqualification.
+• Judges’ decision will be final.
+Participation Fee :- Rs 50 per person`
     },
     {
       title: 'Reverse Charades',
@@ -292,9 +307,7 @@ The game consists of two rounds, both based on the same concept:
       sticker: '🎭',
       rules: `Reverse Charades
 ABOUT THE GAME:
-Reverse Charades is a fun and interactive communication-based game. One player knows the action and
-verbally instructs another player to perform it. After performing, the player must guess the action. The
-game focuses on clarity, communication, and quick thinking.
+Reverse Charades is a fun and interactive communication-based game. One player knows the action and verbally instructs another player to perform it. After performing, the player must guess the action. The game focuses on clarity, communication, and quick thinking.
 INSTRUCTIONS AND RULES:
 • Minimum 2 players per round; can be played one-on-one.
 • One player acts as the Instructor and is shown an action card secretly.
@@ -304,85 +317,88 @@ INSTRUCTIONS AND RULES:
 • Correct guess within the time limit earns a point.
 • Any misconduct will lead to disqualification.
 • The judges’ decision will be final.
-• The team gets 2 minutes to guess.`
+• The team gets 1 minute to guess.
+Participation Fee: ₹50 only per person`
     },
     {
-      title: 'Tug Of War',
+      title: 'Tug of War',
       cat: 'SPORTS',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1508672019048-805c876b67e2?q=80&w=1000',
       sticker: '💪',
-      rules: `TUG OF WAR:
-Team size = 5
-Both teams pull the rope, the team that manages to pull their mark on the rope closest to the centre line
-will be winner.
-Rules:
-• There would be 5 members required per team and one girl is compulsory among them.
-• The rope must be pulled underarm and nobody’s elbow must go below the knee, otherwise foul will
-be called.
-• The team who is pulled by the opposition towards the center whose mark goes over the center line is
-declared the loser.`
+      rules: `Tug of War
+About the Game
+Both teams pull the rope, and the team that manages to pull their mark on the rope closest to the center line will be declared the winner.
+Registration Details
+• Team Size: 5 participants
+• Participation Fee :- ₹250
+Rules
+• There would be 5 members required per team, and one girl is compulsory among them.
+• The rope must be pulled underarm, and nobody’s elbow must go below the knee, otherwise a foul will be called.
+• The team that is pulled by the opposition towards the center, whose mark goes over the center line, is declared the loser.`
     },
     {
-      title: 'BGMI / Free Fire',
+      title: 'BGMI-Free Fire',
       cat: 'ESPORTS',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000',
       sticker: '🎮',
-      rules: `BGMI Game Competition Rules
+      rules: `BGMI
+Registration Details
+• Match Type: Squad
+Participation Fee (Squad): ₹250
 General Rules
-This is a BGMI (Mobile) competition. All players must register before the match starts. Players must join
-the match on time. Late entries are not allowed. Organizer’s decision will be final and binding.
+• This is a BGMI (Mobile) competition. All players must register before the match starts. Players must join the match on time, and late entries are not allowed.
+The organizer’s decision will be final and binding.
 Team & Player Rules
-Match Type: Squad  
-No team changes after registration. Sharing accounts is strictly prohibited.
-• Game Settings 
-Map: Erangel  
-Mode: Classic 
-• Fair Play & Cheating 
-No hacking, cheating, scripts, or third-party apps allowed. Use of glitches or bugs is not allowed. Any
-player caught cheating will be immediately disqualified. Teaming up with other teams is not allowed.
-• Match Rules 
-Players must stay in the match until eliminated. Intentional disconnection may lead to disqualification.  
-• If a player faces genuine network issues, no rematch will be given (unless organizers decide 
-otherwise). 
-• Prizes will be distributed after verification of results. Any rule violation may lead to forfeiture of 
-prize money. 
-• No abusive language or toxic behaviour. Respect all players and organizers. Maintain sportsmanship 
-at all times 
-Free Fire 
-Instructions & Rules 
-General Rules 
-1. All matches will be played in custom rooms. 
-2. Participants must join the lobby on time. 
-3. Room ID and password will be shared before each match. 
-4. Use of hacks, cheats, or unfair means will result in immediate disqualification. 
-5. The organizers’ decision will be final in case of any dispute. 
-6. If the number of participating teams is high, the tournament will be conducted in two 
-rounds. 
-7. If the number of participating teams is low, only one round will be conducted, and the 
-winner of that round will be declared the tournament champion. 
-Rounds 
-The tournament will be conducted in two rounds, both played in custom rooms: 
-Round 1 – Battle Royale (Qualifying Round) 
-• Map: Bermuda 
-• Mode: Battle Royale (Squad) 
-• Each custom room will consist of 12 teams 
-• The winning team from each room will qualify for the final round 
-Round 2 – Clash Squad (Final Round) 
-• Mode: Clash Squad 
-• Teams: 2 
-• Best of 7 rounds 
-• The team that wins 4 rounds first will be declared the winner 
-Round 1 – Battle Royale Rules 
-1. All character skills are allowed. 
-2. Sonia and Dimitri cannot be used together in the same match. 
-3. Revive Points: Enabled. 
-4. Revival Cards: Disabled. 
-Round 2 – Clash Squad Rules 
-1. All character skills are disabled. 
-2. Only headshots are allowed. 
-3. The team winning 4 rounds first will be declared the Game Winner.`
+• Match Type: Squad
+• No team changes after registration.
+• Sharing accounts is strictly prohibited.
+Game Settings
+• Map: Erangel
+• Mode: Classic
+Fair Play & Cheating
+• No hacking, cheating, scripts, or third-party apps are allowed.
+• Use of glitches or bugs is not allowed.
+• Any player caught cheating will be immediately disqualified.
+• Teaming up with other teams is not allowed.
+Match Rules
+• Players must stay in the match until eliminated.
+• Intentional disconnection may lead to disqualification.
+• If a player faces genuine network issues, no rematch will be given (unless organizers decide otherwise).
+• Prizes will be distributed after verification of results. Any rule violation may lead to forfeiture of prize money.
+• No abusive language or toxic behaviour. Respect all players and organizers and maintain sportsmanship at all times.
+Free Fire
+Registration Details
+Participation Fee: ₹250
+General Rules
+• All matches will be played in custom rooms.
+• Participants must join the lobby on time.
+• Room ID and passwordwill be shared before each match.
+• Use of hacks, cheats, or unfair means will result in immediate disqualification.
+• The organizers’ decision will be final in case of any dispute.
+• If the number of participating teams is high, the tournament will be conducted in two rounds.
+• If the number of participating teams is low, only one round will be conducted, and the winner of that round will be declared the tournament champion.
+The tournament will be conducted in two rounds, both played in custom rooms.
+Round 1 – Battle Royale (Qualifying Round)
+• Map: Bermuda
+• Mode: Battle Royale (Squad)
+• Each custom room will consist of 12 teams
+• The winning team from each room will qualify for the final round
+Round 1 – Battle Royale Rules
+• All character skills are allowed.
+• Sonia and Dimitri cannot be used together in the same match.
+• Revive Points: Enabled.
+• Revival Cards: Disabled.
+Round 2 –Clash Squad (Final Round)
+• Mode: Clash Squad
+• Teams: 2
+• Best of 7 rounds
+• The team that wins 4 rounds first will be declared the winner
+Round 2 – Clash Squad Rules
+• All character skills are disabled.
+• Only headshots are allowed.
+• The team winning 4 rounds first will be declared the Game Winner.`
     },
     {
       title: 'Cook Without Fire',
@@ -392,15 +408,14 @@ Round 2 – Clash Squad Rules
       sticker: '🍽️',
       rules: `Cook Without Fire
 About Game:[30 min]
-Welcome to the Cook Without Fire Challenge, a creative and culinary event where participants
-will showcase their cooking skills without the use of traditional heat sources. Participants aim to
-prepare delicious dishes without using any heat source or fire.
+Welcome to the Cook Without Fire Challenge, a creative and culinary event where participants will showcase their cooking skills without the use of traditional heat sources. Participants aim to prepare delicious dishes without using any heat source or fire.
+Team Size: 2 participants
+Participation Fee: ₹50 per person
 Instruction And Rules:
 • Each participant will be provided with a designated preparation area.
 • Participants must keep their workstations clean and tidy throughout the competition.
 • Competition must complete the dish within the allocated time.
-• Participants are allowed to bring basic tools and utensils (e.g., knives, cutting boards,
-mixing bowls).
+• Participants are allowed to bring basic tools and utensils (e.g., knives, cutting boards, mixing bowls).
 • Participants must bring their own raw ingredients for the competition.
 • Electrical appliances and heating devices are strictly prohibited.
 • Dishes will be judged based on creativity, taste, and presentation.
@@ -412,68 +427,65 @@ mixing bowls).
       cat: 'POSTER',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1000',
-      sticker: '📄',
+      sticker: '🖼️',
       rules: `Tech Canvas
-Tech Canvas is a creative poster-making competition conducted as part of our technical event. It
-provides a platform for students to visually showcase their technical ideas, innovations, and concepts in
-an engaging and impactful way. Participants can express their understanding of a predefined technical
-theme through posters that combine creativity with technical relevance. Posters may be hand-made or
-digitally designed using tools like Canva, allowing participants the freedom to present their ideas in
-their preferred format.
-Instructions  
-Participation can be individual.  
-• All entries must be original and created solely by the participant or team submitting the work. 
-• Posters may be hand-made or digitally designed using tools like Canva. 
-• AI-generated posters, images, designs, or content are strictly prohibited. 
-• All posters must be submitted before the specified deadline. 
-• The poster must maintain a professional appearance and be technically relevant to the given 
-theme. 
-• A panel of judges will evaluate the posters based on the announced judging criteria. 
-• Participants are responsible for bringing all required materials for poster creation. 
-• Use of copied content, AI tools, or any unfair means will result in immediate 
-disqualification. 
-• Any violation of rules will lead to disqualification of the individual by the management team. 
-• It is mandatory to submit the poster in A3 size. Any participant who does not follow the A3 
-size requirement will be disqualified.`
+About the Game:
+Tech Canvas is a creative poster-making competition conducted as part of our technical event. It provides a platform for students to visually showcase their technical ideas, innovations, and concepts in an engaging and impactful way. Participants can express their understanding of a predefined technical theme through posters that combine creativity with technical relevance.
+Posters may be hand-made or digitally designed using tools like Canva, allowing participants the freedom to present their ideas in their preferred format.
+Instructions & Rules :
+Participation will be individual Only.
+• All entries must be original and created solely by the participant.
+• Posters may be hand-made or digitally designed using tools like Canva.
+• AI-generated posters, images, designs, or content are strictly prohibited.
+• All posters must be submitted before the specified deadline.
+• The poster must maintain a professional appearance and be technically relevant to the given theme.
+• A panel of judges will evaluate the posters based on the announced judging criteria.
+• Participants are responsible for bringing all required materials for poster creation.
+• Use of copied content, AI tools, or any unfair means will result in immediate disqualification.
+• Any violation of rules will lead to disqualification of the individual by the management team.
+• It is mandatory to submit the poster in A2 size. Any participant who does not follow the A2 size requirement will be disqualified.
+Participation Fee: ₹40 only`
     },
     {
-      title: 'Beg Borrow Steel',
+      title: 'Beg Borrow Steal',
       cat: 'SCAVENGER',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1000',
       sticker: '🔎',
-      rules: `Beg Borrow Steel
-REGISTRATION DETAILS:
+      rules: `Beg Borrow Steal
+About the Game :
+Beg-Borrow-Steal Challenge is an exciting and strategic team-based hunt that tests participants’ resourcefulness, teamwork, and quick thinking. Teams must collect a list of items by begging, borrowing, or strategically stealing within a limited time.
+Registration Details
 Team Size: 4 participants
-ABOUT GAME:
-Welcome to the Beg-Borrow-Steal Challenge, an exhilarating and strategic hunt that tests your team's
-resourcefulness. and cunning strategies. Teams aim to collect a list of items through begging, borrowing,
-and strategic stealing within a limited time.
-INSTRUCTION & RULES:
-• Teams must complete the assigned tasks within the stipulated time for each round.
-• Teams arriving late for a round will be eliminated from the competition.
-• A list of items to be collected will be provided to each team for each round. Teams are not allowed to
-use vehicles for the challenge.
-• Teams are solely responsible for returning all items collected through begging, borrowing, or stealing.`
+Participation Fee: ₹250
+Rounds
+• The game will be conducted in 3 rounds, where teams must collect the given items within the allotted time. Teams that successfully complete the tasks move forward to the next round.
+• Round 1: 20 minutes
+• Round 2: 15 minutes
+• Round 3: 15 minutes
+Instructions & Rules
+• Teams must complete the assigned tasks within the given time limit for each round.
+• Teams arriving late for a round will be eliminated.
+• A list of items to be collected will be provided for each round.
+• Vehicles are not allowed during the challenge.
+• Teams are responsible for returning all items collected through begging, borrowing, or stealing.
+• Judges’ decision will be final.
+Registration Details
+Team Size: 4 participants
+Participation Fee: ₹250`
     },
     {
-      title: 'IT Ramp Walk',
+      title: 'IT- Ramp Walk',
       cat: 'FASHION',
       prize: 'TBD',
       img: 'https://images.unsplash.com/photo-1495121605193-b116b5b09a6f?q=80&w=1000',
       sticker: '🕺',
       rules: `IT Ramp Walk
-REGISTRATION DETAILS:
-Team Size: 1 participant (Individual)
-ABOUT GAME:
-Welcome to the IT Ramp Walk, where technology meets confidence and creativity. Participants will
-showcase IT-inspired outfits and presentations based on tech themes, trends, or innovations. The ramp
-walk tests your confidence, communication skills, creativity, and tech awareness—all in a stylish way.
+REGISTRATION DETAILS: Team Size: 1 participant (Individual)
+ABOUT GAME: Welcome to the IT Ramp Walk, where technology meets confidence and creativity. Participants will showcase IT-inspired outfits and presentations based on tech themes, trends, or innovations. The ramp walk tests your confidence, communication skills, creativity, and tech awareness—all in a stylish way.
 INSTRUCTION & RULES:
-• Each participant must prepare an IT/tech-based theme (e.g., AI, Cyber Security, Future Tech,
-Startups, Coding Culture, etc.).
+• Each participant must prepare an IT/tech-based theme (e.g., AI, Cyber Security, Future Tech, Startups, Coding Culture, etc.).
 • Time limit will be given for each participant on the ramp.
-• Participants must explain their theme briefly while walking or at the end 
 • Vulgar language, offensive content, or inappropriate outfits are strictly prohibited.
 • Judging will be based on confidence, creativity, theme relevance, presentation, and overall impact.
 • Late entries may lead to disqualification.`
@@ -485,10 +497,7 @@ Startups, Coding Culture, etc.).
       img: 'https://images.unsplash.com/photo-1510070009289-b5bc34383727?q=80&w=1000',
       sticker: '🎬',
       rules: `Reel Making
-About the Game:
-The Reel Making competition invites students to showcase their creativity by creating an engaging reel
-based on the Technomantra theme. Participants can participate individually or in teams and use their
-creativity to promote the spirit, energy, and vibe of Technomantra through short-form video content.
+About the Game: The Reel Making competition invites students to showcase their creativity by creating an engaging reel based on the Technomantra theme. Participants can participate individually or in teams and use their creativity to promote the spirit, energy, and vibe of Technomantra through short-form video content
 Instructions and Rules:
 • Participants may take part individually or in teams (up to 3 members).
 • The reel must be created strictly on the theme “Technomantra.”
@@ -497,8 +506,7 @@ Instructions and Rules:
 • Teams must upload their reels using the Google Form link shared by the organizers.
 • All submitted reels will first be filtered and reviewed by the judges.
 • Only shortlisted teams will be allowed to post their reels on Instagram.
-• Participants must collaborate with the official Technomantra Instagram page while 
-posting the reel.
+• Participants must collaborate with the official Technomantra Instagram page while posting the reel.
 • The reel with the highest reach and engagement will be declared the winner.
 • Any content that is offensive, plagiarized, or irrelevant to the theme will be disqualified.
 • The decision of the organizing committee will be final.`
@@ -506,6 +514,7 @@ posting the reel.
   ];
 
   const currentMissions = activeTab === 'TECH' ? techMissions : nonTechMissions;
+  const ruleLines = selectedGame ? selectedGame.rules.split('\n') : [];
 
   return (
     <section id="games" className="bg-[#080310] relative py-24 md:py-32 lg:py-40 overflow-hidden">
@@ -608,7 +617,7 @@ posting the reel.
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-6" onClick={() => setSelectedGame(null)}>
               <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
 
-              <motion.div initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 20, opacity: 0 }} transition={{ duration: 0.25 }} className="relative z-10 max-w-3xl w-full bg-[#0b0b12] border border-white/10 rounded-3xl p-8 shadow-2xl max-h-[80vh] overflow-auto" onClick={(e) => e.stopPropagation()}>
+              <motion.div initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 20, opacity: 0 }} transition={{ duration: 0.25 }} className="relative z-10 max-w-4xl w-full bg-[#0b0b12] border border-white/10 rounded-3xl p-8 shadow-2xl max-h-[85vh] overflow-hidden" onClick={(e) => e.stopPropagation()}>
                 <button onClick={() => setSelectedGame(null)} className="absolute top-4 right-4 p-2 rounded-full bg-white/5 hover:bg-white/10">
                   <X size={20} />
                 </button>
@@ -623,7 +632,43 @@ posting the reel.
                   </div>
                 </div>
 
-                <div className="prose prose-invert max-w-none whitespace-pre-wrap text-sm leading-relaxed">{selectedGame.rules}</div>
+                <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-4 sm:p-5 h-[62vh] overflow-y-auto">
+                  <div className="space-y-2 text-sm sm:text-[15px] leading-7 text-white/90">
+                    {ruleLines.map((line: string, idx: number) => {
+                      const trimmed = line.trim();
+                      const isEmpty = trimmed.length === 0;
+                      const isBullet = trimmed.startsWith('•') || trimmed.startsWith('- ') || /^\d+\./.test(trimmed);
+                      const isHeading =
+                        !isBullet &&
+                        (/^(About the Game|About Game|ABOUT THE GAME|Rules|Rules & Evaluation|Instructions|Instructions & Rules|Instruction And Rules|INSTRUCTIONS AND RULES|Winning Criteria|Registration Details|Rounds|General Rules|Team & Player Rules|Game Settings|Fair Play & Cheating|Match Rules|Round \d|Participation Fee|Task \d|Game Format|ROUND \d)/i.test(trimmed) ||
+                          trimmed === trimmed.toUpperCase());
+
+                      if (isEmpty) return <div key={`line-${idx}`} className="h-2" />;
+
+                      if (isHeading) {
+                        return (
+                          <p key={`line-${idx}`} className="pt-2 text-vibrant font-semibold tracking-wide">
+                            {line}
+                          </p>
+                        );
+                      }
+
+                      if (isBullet) {
+                        return (
+                          <p key={`line-${idx}`} className="pl-4 border-l border-white/10 text-white/90">
+                            {line}
+                          </p>
+                        );
+                      }
+
+                      return (
+                        <p key={`line-${idx}`} className="text-white/90">
+                          {line}
+                        </p>
+                      );
+                    })}
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
           )}
@@ -634,3 +679,5 @@ posting the reel.
 };
 
 export default GamesSection;
+
+

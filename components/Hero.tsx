@@ -147,10 +147,10 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex flex-wrap gap-8 justify-center items-center mt-16"
         >
-          {/* <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
-            Register <MousePointer2 size={24} />
-          </button> */}
-          <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
+          <button className="group relative bg-white text-black px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3" >
+            <a href="https://technomantra-2k26.vercel.app/">Register</a> <MousePointer2 size={24} />
+          </button>
+          <button className="group relative bg-none text-white border-2 px-12 py-5 rounded-full font-bold text-2xl hover:bg-vibrant transition-all shadow-[0_0_50px_rgba(255,255,255,0.1)] hover:shadow-vibrant/40 flex items-center gap-3">
             <a href="#games">Events</a> <ChevronRight className="group-hover:translate-x-2 transition-transform" />
           </button>
         </motion.div>
