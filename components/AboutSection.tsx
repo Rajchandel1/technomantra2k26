@@ -72,7 +72,7 @@ const AboutSection: React.FC = () => {
                 <picture>
                   <source srcSet="/balcony.jpg"/>
                   <img 
-                    src="/balcony.JPG" 
+                    src="/balcony.jpg" 
                     alt="Tech Face Visual" 
                     className="w-full h-full object-cover"
                     loading="lazy"
