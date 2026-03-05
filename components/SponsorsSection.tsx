@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 const SponsorsSection: React.FC = () => {
   const sponsors = [
-    { name: 'ims', logo: './public/ims.png' },
-    { name: 'Expert Education', logo: 'public/expert academy.png' },
-    {name: 'Credila', logo: 'public/credila.gif'}  
+    { name: 'ims', logo: '/ims.png' },
+    { name: 'Expert Education', logo: '/expert academy.png' },
+    { name: 'Credila', logo: '/credila.gif' }
   ];
 
   return (
