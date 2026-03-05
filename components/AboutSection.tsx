@@ -70,7 +70,7 @@ const AboutSection: React.FC = () => {
               >
                 {/* Tech Face Image from provided visuals */}
                 <picture>
-                  <source srcSet="/balcony.jpg" type="image/webp" />
+                  <source srcSet="/balcony.jpg"/>
                   <img 
                     src="/balcony.JPG" 
                     alt="Tech Face Visual" 
