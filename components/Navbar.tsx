@@ -15,6 +15,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
+    
       <nav className="fixed top-0 left-0 w-full z-[100] apple-blur border-b border-white/5">
         <div className="max-w-[1200px] mx-auto px-6 h-12 flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>

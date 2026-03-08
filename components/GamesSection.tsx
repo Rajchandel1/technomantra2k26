@@ -11,7 +11,7 @@ const GamesSection: React.FC = () => {
       title: 'Shan-e-Technomantra',
       cat: 'CODING / INTERVIEW',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/1200x/d9/7b/de/d97bdeeb39bb6756724d1218327e4ca7.jpg',
+      img: './shaan.jpeg',
       sticker: '💡',
       rules: `Shan-e-Technomantra
 About the Game:
@@ -30,7 +30,7 @@ Participation Fee: ₹40`
       title: 'IT-Prenuership',
       cat: 'INNOVATION',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/736x/2a/48/1f/2a481f657263d9967ea96e7e682ae248.jpg',
+      img: './it.jpeg',
       sticker: '🚀',
       rules: `IT-Prenuership
 About the Game :
@@ -48,8 +48,8 @@ Round 1 – Preliminary Round (College Level)
 • Each presentation will have a duration of 10–15 minutes.
 • Judges will evaluate ideas based on innovation, feasibility, technical depth, and presentation quality.
 • This round will serve as the elimination round.
-• Selected participants or teams will advance to Round 2 in the Senate Hall.
-Round 2 – Final Round (Senate Hall)
+• Selected participants or teams will advance to Round 2 in the Zoology Hall.
+Round 2 – Final Round (Zoology Hall)
 • Finalists will present their refined or expanded business ideas.
 • Each presentation will have a duration of 10–15 minutes.
 • A detailed Q&A session will follow each presentation.
@@ -60,7 +60,7 @@ Participation Fee: ₹40 per person`
       title: 'Bug To Brain',
       cat: 'CODING',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/736x/b8/32/2c/b8322c874daf2c5784ec6b98edb873b4.jpg',
+      img: './btb.png',
       sticker: '🐞',
       rules: `Bug To Brain
 About the Game :
@@ -90,7 +90,7 @@ Participation Fee :- ₹40`
       title: 'Tech Hunt',
       cat: 'HUNT',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/1200x/7d/a6/e3/7da6e37d89518cb768db7586836f25be.jpg',
+      img: './hunt.png',
       sticker: '🧩',
       rules: `Tech Hunt
 About the Game: Tech Hunt Mania is an immersive, campus-wide treasure hunt designed to challenge participants through a series of interconnected, technology-inspired riddles. Teams must decode each clue to unlock the next location, navigating across the campus in pursuit of the final destination. The game tests logical reasoning, teamwork, problem-solving ability, observation skills, and time management. Every correct solution advances the team further along the digital trail. The competition unfolds as one continuous round, where strategy and speed determine success. Only the most efficient and coordinated team will complete the hunt and claim victory.
@@ -120,7 +120,7 @@ Participation Fee: ₹40 only per person`
       title: 'Tech Echo',
       cat: 'QUIZ',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/736x/23/6e/5e/236e5e8bc28e07a49c5879f135bc4bfd.jpg',
+      img: './echo.jpeg',
       sticker: '🎤',
       rules: `Tech Echo
 About Game:
@@ -155,7 +155,7 @@ Participation Fee: ₹40 only per person`
       title: 'Bro Code',
       cat: 'PAIR CODING',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/1200x/fd/a4/84/fda4848ecbef63e098b7a22117345b93.jpg',
+      img: './brocode.jpeg',
       sticker: '🤝',
       rules: `Bro Code
 About the Game :
@@ -181,7 +181,7 @@ Participation Fee: ₹40 only per person`
       title: 'UI-Verse',
       cat: 'FRONTEND',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/736x/59/b7/1d/59b71d34cefbb9e41db850bc7d751c57.jpg',
+      img: './ui.jpeg',
       sticker: '🌐',
       rules: `UI-Verse
 About the Game :
@@ -205,10 +205,10 @@ Participation Fee: ₹40 only`
       title: 'SQL Slayer',
       cat: 'DATABASES',
       prize: 'TBD',
-      img: 'https://i.pinimg.com/1200x/23/28/2a/23282ab06bb255f808463a48210822bd.jpg',
+      img: './sql.jpeg',
       sticker: '🗄️',
       rules: `SQL Slayer
-About the Game : SQL Slayer is a thrilling, story-driven SQL battle where participants enter a fictional database warzone. Players solve narrative-based SQL challenges to earn points and prepare for the ultimate showdown. The competition unfolds in two intense rounds — beginning in the College Arena and culminating in the Senate Hall, where participants engage in a rapid-fire SQL battle against the Main Villain. Strategy, accuracy, and speed determine the ultimate SQL Slayer.
+About the Game : SQL Slayer is a thrilling, story-driven SQL battle where participants enter a fictional database warzone. Players solve narrative-based SQL challenges to earn points and prepare for the ultimate showdown. The competition unfolds in two intense rounds — beginning in the College Arena and culminating in the Zoology Hall, where participants engage in a rapid-fire SQL battle against the Main Villain. Strategy, accuracy, and speed determine the ultimate SQL Slayer.
 Rules :
 • Participants must write valid and syntactically correct SQL queries.
 • No electronic devices or external assistance is allowed.
@@ -221,8 +221,8 @@ Duration: 45 Minutes
 • They must write SQL queries based on the storyline.
 • Points will be awarded for correctness and accuracy.
 • The total points earned in this round will carry forward to Round 2.
-• Selected participants will advance to the Senate Hall.
-Round 2 – The Senate War (Rapid Fire)
+• Selected participants will advance to the Zoology Hall.
+Round 2 – The Zoology Hall War (Rapid Fire)
 • This round will consist of SQL-related MCQs.
 • Each question will have a strict time limit.
 • Faster correct responses will result in greater impact during the battle.
@@ -240,7 +240,7 @@ Participation Fee :- ₹40 only`
       title: 'Rang-e-Tech',
       cat: 'CREATIVE',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?q=80&w=1000',
+      img: './rangoli.jpeg',
       sticker: '🎨',
       rules: `Rang-e-Tech
 ABOUT THE GAME:
@@ -256,14 +256,14 @@ Participation Fee: ₹40 only per person`
       title: 'Pictionary',
       cat: 'GAME',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000',
+      img: './pictionary.jpeg',
       sticker: '🖍️',
       rules: `Pictionary
 About the Game: Pictionary is a creative and engaging game that tests participants’ imagination and visual thinking skills. One participant draws a given word or phrase while the other guesses it within a limited time.
 Round 1 ( KS Auditorium ):
 • Participants will perform the standard Pictionary task.
 • One member will draw, and the other must guess the word within 1 minutes.
-Round 2 ( Senate Hall ) :
+Round 2 ( Zoology Hall ) :
 • Participants will perform the standard Pictionary task.
 • One member will draw, and the other must guess the word within 1 minutes.
 Instructions and Rules:
@@ -278,7 +278,7 @@ Participation Fee :- ₹50 only`
       title: 'Say It Right',
       cat: 'COMMUNICATION',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1520975915084-6b97b9b3d6a8?q=80&w=1000',
+      img: './sayit.jpeg',
       sticker: '👄',
       rules: `Say It Right
 About the Game :
@@ -287,7 +287,7 @@ Round 1
 • Teams attempt to guess as many words or sentences as possible within 1 minute using lip-reading.
 • The top performing teams qualify for Round 2.
 Round 2
-• The same format continues but with more challenging words or sentences. This round will be conducted in the Senate Hall, and the best performing team will be declared the winner.
+• The same format continues but with more challenging words or sentences. This round will be conducted in the Zoology Hall, and the best performing team will be declared the winner.
 Rules & Instructions
 • Each team consists of 2 participants.
 • One participant wears headphones with music playing.
@@ -303,7 +303,7 @@ Participation Fee :- Rs 50 per person`
       title: 'Reverse Charades',
       cat: 'GAME',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1000',
+      img: './reverse.jpeg',
       sticker: '🎭',
       rules: `Reverse Charades
 ABOUT THE GAME:
@@ -324,7 +324,7 @@ Participation Fee: ₹50 only per person`
       title: 'Tug of War',
       cat: 'SPORTS',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1508672019048-805c876b67e2?q=80&w=1000',
+      img: './tug.jpeg',
       sticker: '💪',
       rules: `Tug of War
 About the Game
@@ -341,7 +341,7 @@ Rules
       title: 'BGMI-Free Fire',
       cat: 'ESPORTS',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1000',
+      img: './bgmi.jpeg',
       sticker: '🎮',
       rules: `BGMI
 Registration Details
@@ -404,7 +404,7 @@ Round 2 – Clash Squad Rules
       title: 'Cook Without Fire',
       cat: 'CULINARY',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000',
+      img: './cook.jpeg',
       sticker: '🍽️',
       rules: `Cook Without Fire
 About Game:[30 min]
@@ -426,7 +426,7 @@ Instruction And Rules:
       title: 'Tech Canvas',
       cat: 'POSTER',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1000',
+      img: './canvas.jpeg',
       sticker: '🖼️',
       rules: `Tech Canvas
 About the Game:
@@ -450,7 +450,7 @@ Participation Fee: ₹40 only`
       title: 'Beg Borrow Steal',
       cat: 'SCAVENGER',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1000',
+      img: './bbs.jpeg',
       sticker: '🔎',
       rules: `Beg Borrow Steal
 About the Game :
@@ -478,7 +478,7 @@ Participation Fee: ₹250`
       title: 'IT- Ramp Walk',
       cat: 'FASHION',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1495121605193-b116b5b09a6f?q=80&w=1000',
+      img: './ramp.jpeg',
       sticker: '🕺',
       rules: `IT Ramp Walk
 REGISTRATION DETAILS: Team Size: 1 participant (Individual)
@@ -494,7 +494,7 @@ INSTRUCTION & RULES:
       title: 'Reel Making',
       cat: 'MEDIA',
       prize: 'TBD',
-      img: 'https://images.unsplash.com/photo-1510070009289-b5bc34383727?q=80&w=1000',
+      img: './reel.jpeg',
       sticker: '🎬',
       rules: `Reel Making
 About the Game: The Reel Making competition invites students to showcase their creativity by creating an engaging reel based on the Technomantra theme. Participants can participate individually or in teams and use their creativity to promote the spirit, energy, and vibe of Technomantra through short-form video content
