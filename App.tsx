@@ -1,14 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
 import GamesSection from './components/GamesSection';
 import GallerySection from './components/GallerySection';
+import PhotoBoothSection from './components/PhotoBoothSection';
 import SponsorsSection from './components/SponsorsSection';
 import Footer from './components/Footer';
 import SplashCursor from './components/SplashCursor';
 import SiteLoader from './components/SiteLoader';
+import TechTeamPage from './components/TechTeamPage';
 import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
 
 const App: React.FC = () => {
@@ -22,36 +25,47 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-primary text-white selection:bg-accent selection:text-white">
-      <AnimatePresence mode="wait">
-        {isLoading ? (
-          <SiteLoader key="loader" onComplete={() => setIsLoading(false)} />
-        ) : (
-          <motion.div
-            key="content"
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <SplashCursor />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <AnimatePresence mode="wait">
+                {isLoading ? (
+                  <SiteLoader key="loader" onComplete={() => setIsLoading(false)} />
+                ) : (
+                  <motion.div
+                    key="content"
+                    initial={{ opacity: 0, scale: 0.98 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+                  >
+                    <SplashCursor />
 
-            {/* Progress Bar */}
-            <motion.div
-              className="fixed top-0 left-0 right-0 h-1 bg-accent z-[101] origin-left shadow-[0_0_15px_#8b5cf6]"
-              style={{ scaleX }}
-            />
+                    {/* Progress Bar */}
+                    <motion.div
+                      className="fixed top-0 left-0 right-0 h-1 bg-accent z-[101] origin-left shadow-[0_0_15px_#8b5cf6]"
+                      style={{ scaleX }}
+                    />
 
-            <Navbar />
-            <main>
-              <Hero />
-              <AboutSection />
-              <GamesSection />
-              <SponsorsSection />
-              <GallerySection />
-            </main>
-            <Footer />
-          </motion.div>
-        )}
-      </AnimatePresence>
+                    <Navbar />
+                    <main>
+                      <Hero />
+                      <AboutSection />
+                      <GamesSection />
+                      <SponsorsSection />
+                      <PhotoBoothSection />
+                      <GallerySection />
+                    </main>
+                    <Footer />
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </>
+          }
+        />
+        <Route path="/tech-team" element={<TechTeamPage />} />
+      </Routes>
     </div>
   );
 };
