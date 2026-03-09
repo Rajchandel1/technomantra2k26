@@ -222,11 +222,6 @@ Duration: 45 Minutes
 • Points will be awarded for correctness and accuracy.
 • The total points earned in this round will carry forward to Round 2.
 • Selected participants will advance to the Zoology Hall.
-Round 2 – The Zoology Hall War (Rapid Fire)
-• This round will consist of SQL-related MCQs.
-• Each question will have a strict time limit.
-• Faster correct responses will result in greater impact during the battle.
-• Participants will use their earned points strategically in the final confrontation
 Winning Criteria
 • The participant who defeats the Main Villain wins.
 • If multiple participants defeat the Villain, the one with the highest remaining HP will be declared the winner.
