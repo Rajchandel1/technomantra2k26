@@ -375,25 +375,15 @@ General Rules
 • If the number of participating teams is high, the tournament will be conducted in two rounds.
 • If the number of participating teams is low, only one round will be conducted, and the winner of that round will be declared the tournament champion.
 The tournament will be conducted in two rounds, both played in custom rooms.
-Round 1 – Battle Royale (Qualifying Round)
-• Map: Bermuda
-• Mode: Battle Royale (Squad)
-• Each custom room will consist of 12 teams
-• The winning team from each room will qualify for the final round
-Round 1 – Battle Royale Rules
-• All character skills are allowed.
-• Sonia and Dimitri cannot be used together in the same match.
-• Revive Points: Enabled.
-• Revival Cards: Disabled.
-Round 2 –Clash Squad (Final Round)
-• Mode: Clash Squad
-• Teams: 2
-• Best of 7 rounds
-• The team that wins 4 rounds first will be declared the winner
-Round 2 – Clash Squad Rules
-• All character skills are disabled.
-• Only headshots are allowed.
-• The team winning 4 rounds first will be declared the Game Winner.`
+There are two round in free fire 
+    * 1st ROUND 
+Battle royal 
+[Based on ESPORTS point system and rule ]
+      * 2nd round 
+   Cs [like Cs-ranked]
+Rule : character skill yes
+           Gun attributes no 
+           Loadout yes`
     },
     {
       title: 'Cook Without Fire',
