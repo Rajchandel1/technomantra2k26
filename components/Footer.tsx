@@ -66,11 +66,7 @@ const Footer: React.FC = () => {
                   Signal
                 </li>
                 <li className="text-muted">Stability: High</li>
-                <li>
-                  <a href="/admin.html" className="flex items-center gap-3 transition-all hover:text-vibrant">
-                    Admin Desk <ArrowUpRight size={20} className="text-accent" />
-                  </a>
-                </li>
+               
               </ul>
             </div>
           </div>
