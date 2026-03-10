@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import ScheduleSection from './components/ScheduleSection';
 import AboutSection from './components/AboutSection';
 import GamesSection from './components/GamesSection';
 import GallerySection from './components/GallerySection';
@@ -51,6 +52,7 @@ const App: React.FC = () => {
                     <Navbar />
                     <main>
                       <Hero />
+                      <ScheduleSection />
                       <AboutSection />
                       <GamesSection />
                       <SponsorsSection />
